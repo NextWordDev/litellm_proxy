@@ -10,4 +10,5 @@ model_list:
 litellm_settings:
   drop_params: True
   success_callback: ["langfuse"]
+  failure_callback: ["langfuse"]
 
